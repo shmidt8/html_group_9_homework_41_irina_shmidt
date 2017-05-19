@@ -1,1 +1,0 @@
-# html_group_9_homework_41_irina_shmidt

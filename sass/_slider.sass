@@ -1,0 +1,47 @@
+.slider
+	font-family: 'Sintony', sans-serif
+	text-align: center
+	padding: 30px 0 75px 0
+	color: #fff
+	&_item
+
+	.slick-arrow
+		position: absolute
+		top: 50%
+		width: 32px
+		height: 32px
+		border-radius: 50%
+		margin-top: -16px
+		font-size: 0
+		border: 0
+		&:hover
+			opacity: 0.7
+		&.slick-prev
+			left: 0
+			background: #51b29a url(../img/arrow.png) 0 0 no-repeat
+		&.slick-next
+			right: 0
+			background: #51b29a url(../img/arrow.png) -30px 0 no-repeat
+
+	.slick-dots
+		list-style: none
+		top: 50%
+		width: 20%
+		margin: auto
+		text-align: center
+		li
+			display: inline-block
+			margin: 0 5px
+			&.slick-active
+				button
+					background-color: #fff
+					border-color: transparent
+			button
+				background: none
+				border: none
+				font-size: 0
+				background-color: transparent
+				border: 3px solid #fff
+				border-radius: 50%
+				height: 17px
+				width: 5px
